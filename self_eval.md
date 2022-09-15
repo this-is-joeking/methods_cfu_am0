@@ -9,6 +9,8 @@
 > When would the method replace be used? Seems like if your replacing an entire piece of data you could just reassign the variable you call it on.
 > Ruby documentation shows the below example:
 
-```s = 'foo'        # => "foo"
-s.replace('bar') # => "bar"```
+```
+s = 'foo'        # => "foo"
+s.replace('bar') # => "bar"
+```
 > Seems to just be a more complicated way of coding `s = bar`
